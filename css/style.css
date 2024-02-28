@@ -1,0 +1,162 @@
+/* Resetting default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+}
+
+/* Header styles */
+.header {
+    height: 75px;
+    box-shadow: 0 0 2px #000;
+}
+
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customers {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 30px;
+}
+.customers .btn.btn-primary {
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #F2863B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.contact .btn.btn-outline {
+
+    font-weight: 550;
+    font-size: 16px;
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+}
+.contact i {
+    font-size: 18px;
+    margin-right: 3px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    
+}
+.user .btn.btn-outline{
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+}
+.user i {
+    font-size: 18px;
+    font-weight: 550;
+}
+.logo img {
+    height: 60px;
+    width: 100%; 
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+    font-size: 15px; /* Space between menu items */
+    font-family: "Poppins", sans-serif; /* Corrected font-family declaration */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Menu item text color */
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-img {
+    width: 310px;
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.nav2 {
+    display: none;
+    position: absolute; /* Điều chỉnh vị trí tùy theo layout của bạn */
+    background-color: #fff; /* Màu nền */
+    top: 55px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4); /* Thêm bóng cho menu */
+    right: 130px;
+
+}
+.nav2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user:hover .nav2 {
+    display: block; /* Hiển thị khi hover vào .user */
+}
+.nav2 .box i {
+    display: flex;
+    position: relative;
+    transform: rotate(45deg);
+    color: #fff;
+    /* box-shadow: 2px 0 0 0 rgba(0,0,0,0.4); */
+    right: -50px;
+    top: 17px;
+}
+
+.nav2 ul li a:hover {
+    color: #00BFFF; /* Màu xanh dương nhạt */
+}
+nav ul li a:hover {
+    color: #00BFFF; /* Màu xanh dương nhạt */
+}
